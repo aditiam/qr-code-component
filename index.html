@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+
+    body {
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit';
+      font-size: 15px;
+    }
+
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 4rem;
+      max-width: 976px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: hsl(0, 0%, 100%);
+      padding: 1rem;
+      border-radius: 5%;
+      width: 350px;
+      height: auto;
+    }
+
+    .card-img {
+      border-radius: 5%;
+    }
+
+    .card-body {
+      text-align: center;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+
+    .card-body h1 {
+      font-size: 24px;
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+    }
+
+    .card-body p {
+      font-size: 16px;
+      font-weight: 400;
+      color: hsl(220, 15%, 55%);
+    }
+
+    .card-qr {
+      border-radius: 5%;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-img">
+        <img class="card-qr" src="images/image-qr-code.png" alt="">
+      </div>
+      <div class="card-body">
+        <h1>Improve your front-end skills by building projects</h1>
+
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Aditia Muchlis</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
